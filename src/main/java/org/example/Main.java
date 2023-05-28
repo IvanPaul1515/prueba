@@ -11,8 +11,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<String> sitiosPermitidos = Arrays.asList("/HTML/Login.html","/HTML/index.html",
-                "/css/Logstyle.css","/images/1.png","/HTML/formulario,html","/auntenticar");
+        List<String> sitiosPermitidos = Arrays.asList("/HTML/login1.html","/HTML/Login.html","/HTML/index.html",
+                "/css/Logstyle.css","/images/fondo_difuminado_login.jpg","/images/1.jpg","/HTML/formulario,html",
+                "/css/login.css","/css/Blogstyle.css","/HTML/index.html","/auntenticar");
 
         //
         var app = Javalin.create(javalinConfig -> {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
 
         <div class="top">
             <span>Have an account?</span>
-            <header>Login</header>
+            <header th:text="Login">Login</header>
         </div>
 
         <div class="input-field">
@@ -46,3 +46,4 @@
 </div>
 </body>
 </html>
+
